@@ -1,0 +1,61 @@
+.films{
+    li{
+    width: 100%;
+    padding: 40px 30px;
+    border-bottom: dashed 1px #c9c9c9;
+    cursor: pointer;
+    overflow: hidden;
+    color:#ccc;
+        img{
+            width: 120px;
+            float: left;
+            overflow: hidden;
+        }
+        .left{
+           
+            padding-left: 30px;
+            display: inline-block;
+            width: 75%;
+             h2{
+                font-size: 32px;
+                line-height: 64px;
+                color: #000;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                float: left;
+             }
+            p{
+                    height: 48px;
+                line-height: 48px;
+                color: #8e8e8e;
+                font-size: 24px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: 100%;
+                display: inline-block;
+            }
+            .grade{
+                float: right;
+                font-size: 32px;
+                line-height: 64px;
+                color: #fc7103;
+              }
+        }
+       
+        
+        .date{
+            padding:26px; 
+            color:#f78360;
+            float: right;
+            font-size: 24px;
+        }
+    }
+
+.box{
+    display: block;
+    width:100%;
+   
+}
+}

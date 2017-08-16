@@ -1,0 +1,35 @@
+@import "./px2rem.scss";
+@import "./reset.scss";
+
+html,body{
+    height: 100%;
+   
+}
+
+.my-drawer {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+   
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 6rem;
+  padding: 0;
+  background-color:#282828;
+  .am-list-body{
+    background-color:#282828;
+    .am-list-item{
+        background-color:#282828;
+        border-bottom: 1px dotted #333;
+        a{
+            color: #9a9a9a;
+            font-size: px2rem(14);
+        }
+    }    
+  }
+}

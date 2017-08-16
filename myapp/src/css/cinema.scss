@@ -1,0 +1,37 @@
+
+
+    
+.cinema{
+    border-radius: 10px;
+    padding: 20px 0 24px 32px;
+    cursor: pointer;
+    margin: 0 auto;
+    border-bottom: 1px solid #e1e1e1;
+    overflow: hidden;
+    .txt{
+        width: 75%;        
+        float: left;
+        cursor: pointer;
+        overflow: hidden;
+        h2{
+            display: inline-block;
+            font-size: 32px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        p{
+            display: inline-block;
+            font-size: 24px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 100%;
+            color: #ccc;    
+        }
+    }
+}
+
+
+.am-accordion .am-accordion-item .am-accordion-header {
+         background: #e1e1e1;
+}

@@ -1,0 +1,42 @@
+@import "./px2rem.scss";
+html,body{
+    color: #333;
+}
+.slider-slide{
+    img{
+        width:100%
+    }
+}
+.list{
+    
+    margin-top:px2rem(17);
+    li{
+        overflow: hidden;
+        color: #333;
+        margin: 0 34px 34px 34px;
+        background-color: #f9f9f9;
+            box-shadow: 0.5px 0.5px 1px #a8a8a8;
+        img{
+                width: 100%;
+                transition: all 1.2s ease;
+                opacity: 1;
+        }
+        .left{
+            padding:26px; 
+            float:left;
+            font-size: 24px;
+        }
+        .grade{
+            padding:26px; 
+            color:#f78360;
+            float: right;
+            font-size: 36px;
+        }
+        .date{
+            padding:26px; 
+            color:#f78360;
+            float: right;
+            font-size: 24px;
+        }
+    }
+}
